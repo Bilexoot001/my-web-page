@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page</title>
+        <style>
+            #navbar {
+                background-color: #333;
+                padding: 10px;
+                text-align: center;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            #navbar a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-weight: bold;
+            }
+            #navbar a:hover {
+                color: yellow;
+            }
+             body{
+                background-color: lightslategray;
+                font-family: Arial, Helvetica, sans-serif;
+                h1 {color:black;}
+                p {color: black;}
+             }
+             ul {
+                list-style-type: none; /* remove default bullets */
+                padding-left: 0; /* optional, to make it look neat */
+             }
+             ul li {
+                color: darkblue;
+                font-size: 18px;
+                margin-bottom: 5px; /* space between items */
+             }
+             ul li::before {
+                content: "✨ ";
+                margin-right: 10px;
+                vertical-align: middle;
+             }
+             div {background-color: lightskyblue;
+            padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#about-me {
+    background-color: #fef3cf;}
+    #skills {
+        background-color: lightblue;}
+        #contact {
+            background-color: lightpink;
+        }
+        h1, h2 {
+  margin-top: 0;           /* removes extra space above headings */
+  margin-bottom: 10px;     /* space below headings */
+}
+p {
+  line-height: 1.5;        /* makes paragraph text easier to read */
+  margin-bottom: 10px;     /* space below paragraph */
+}
+div {
+  padding: 20px;    
+}
+h1 {
+  color: #1e3a8a;          /* dark blue */
+  text-align: center;
+}
+h2 {
+  color: #1f2937;          /* dark gray */
+}
+body {
+  display: flex;
+  justify-content: center;   /* centers content horizontally */
+  background-color: lightgray;
+}
+#container {
+  width: 800px;  
+  max-width: 400px;   
+  margin: auto;      
+  box-shadow:0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+</style>
+    </head>
+    <body>
+        <div id="container">
+        <div id="navbar">
+            <a href="#about">About Me</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#contact">Contact</a>
+        </div>
+
+        <h1>Welcome to Tife's Web Page</h1>
+        <p>This is a sample of what I can do.</p>
+        <div id="about-me">
+        <h2>About Me</h2>
+        <p>I am learning front end development and building my first website.</p>
+        </div>
+        <div id="skills">
+        <h2> My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Learning JavaScript</li>
+        </ul>
+        </div>
+        <div id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:bioluwatifejoseph@gmail.com">bioluwatifejoseph@gmail.com</a></p>
+        <a href="https://wa.me/2348129781092">Message me on WhatsApp</a>
+        <div>
+        <img src="finegirl.jpg" alt="Profile photo " width="150" height="200" style="display:block; margin:auto; border-radius:50%;">
+        </div>
+        </body>
+</html>
